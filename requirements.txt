@@ -1,4 +1,4 @@
 streamlit
 tensorflow
-plotly.graph_objects
+plotly
 
