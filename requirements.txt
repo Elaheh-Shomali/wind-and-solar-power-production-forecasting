@@ -1,6 +1,4 @@
 streamlit
 tensorflow
-datetime
-pickle
 plotly.graph_objects
 
