@@ -27,13 +27,13 @@ WINDOW_SIZE = 20
 START_DATETIME = datetime.datetime(2020, 4, 1, 0, 0)
 
 st.title("Renewable Energy Production Forecast")
-st.write("Enter a date and hour between 2020.04.01 and 2023.06.30 to forecast energy production for wind and solar.")
+st.write("Enter a date and hour to forecast energy production for wind and solar.")
 
 # User input
 date_col, time_col = st.columns(2)
 selected_date = date_col.date_input(
     "Select Date", 
-    value=datetime.date(2021, 3, 20),
+    value=datetime.date(2021, 4, 20),
     min_value=datetime.date(2020, 4, 1),
     max_value=datetime.date(2023, 6, 30)
 )
