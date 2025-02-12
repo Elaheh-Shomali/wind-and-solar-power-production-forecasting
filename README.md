@@ -4,6 +4,9 @@
 
 This project focuses on forecasting renewable energy production—specifically wind and solar energy—using advanced time series forecasting and machine learning techniques. As the global energy landscape shifts toward cleaner sources, accurate energy predictions become crucial for grid management, energy trading, and policy-making. The project not only builds robust predictive models but also delivers an interactive Streamlit application that allows users to forecast energy production for a given date and hour.
 
+## App Link
+Try out the interactive **Renewable Energy Production Forecast** app [here](https://wind-and-solar-power-appuction-forecasting-app.streamlit.app/).
+
 ## Methodology
 
 The project’s workflow involves several key steps:
