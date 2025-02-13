@@ -51,17 +51,20 @@ The project’s workflow involves several key steps:
 ## Challenges Overcome
 
 - **Model Selection and Tuning:** Experimenting with various architectures to find the best fit for forecasting accuracy.
-- 
+- **Capturing Time Series Complexity:** Considering both univariate and multivariate time series approaches to fully grasp the intricacies of the data, enhance accuracy and improve the model's performance.
+- **Exposure Bias:** Recognizing exposure bias as a common challenge in time series prediction and implementing strategies to mitigate its effects.
 
 ## Repository Structure
 
-- **Streamlit-prediction-app.py:** Python file for running the Streamlit application.
+- **``Streamlit-prediction-app.py``:** Python file for running the Streamlit application.
 - **requirements.txt:** Contains the dependencies and prerequisites for installation.
 - **models:** Contains saved model files and checkpoints.
 - **data:** Contains processed data files.
 - **Notebooks:** Contains Jupyter Notebooks for learning and experimentation. This folder includes:
-   - **univariate_method.ipynb:** Notebooks for univariate forecasting experiments.
-   - **multivariate_method.ipynb:** Notebooks for multivariate forecasting experiments.
+   - **``1_Cleaning-dataset.ipynb``:** Notebook for cleaning the dataset.
+   - **``2_Time-Series-exploration.ipynb``:** Notebook demonstrating techniques for exploring time series data.
+   - **``3_Univariate-Time-Series-Prediction-Solar/Wind.ipynb``:** Notebooks for univariate forecasting experiments.
+   - **``4_Multivariate-Time-Series-Prediction-Solar/Wind.ipynb``:** Notebooks for multivariate forecasting experiments.
 - **Output:** include a presentation of the key findings from the analysis.
 
 
